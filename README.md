@@ -58,7 +58,7 @@ export TF_VAR_sample_stack_secret_2_name="storefront-api-key"
 
 ## What This Sample Creates
 
-This sample creates a mock e-commerce application stack with the following modules:
+This sample creates a sample e-commerce application stack with the following modules:
 
 ### Infrastructure Layer
 - **VPC** - Virtual network with public/private subnets, environment variables, and lifecycle hooks
@@ -76,7 +76,7 @@ This sample creates a mock e-commerce application stack with the following modul
 
 ```
 Stack (e.g., "samples")
-└── Namespace (mock)
+└── Namespace ("sample-full")
     │
     ├── Infrastructure
     │   ├── vpc ─────────────────┬──────────────────────────────┐

@@ -1,6 +1,6 @@
 resource "snapcd_module" "storefront_configuration" {
   name                     = "storefront-configuration"
-  namespace_id             = snapcd_namespace.mock.id
+  namespace_id             = snapcd_namespace.sample.id
   source_revision          = "main"
   source_url               = "https://github.com/snapcd-samples/mock-module-storefront-configuration.git"
   source_subdirectory      = ""

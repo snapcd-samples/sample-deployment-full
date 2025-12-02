@@ -4,7 +4,7 @@
 
 resource "snapcd_module" "cluster" {
   name                     = "cluster"
-  namespace_id             = snapcd_namespace.mock.id
+  namespace_id             = snapcd_namespace.sample.id
   source_revision          = "main"
   source_url               = "https://github.com/snapcd-samples/mock-module-kubernetes-cluster.git"
   source_subdirectory      = ""

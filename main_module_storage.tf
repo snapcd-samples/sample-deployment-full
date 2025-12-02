@@ -1,6 +1,6 @@
 resource "snapcd_module" "storage" {
   name                     = "storage"
-  namespace_id             = snapcd_namespace.mock.id
+  namespace_id             = snapcd_namespace.sample.id
   source_revision          = "main"
   source_url               = "https://github.com/snapcd-samples/mock-module-storage-account.git"
   source_subdirectory      = ""
